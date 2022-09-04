@@ -1,0 +1,71 @@
+.listPartidos-page {
+    width: 90%;
+    padding: 4% 0 0;
+    margin: auto;
+  }
+
+  .listPartidos-page h4{
+    color:  #b3b3b3;
+    padding-bottom: 5px;
+  }
+
+  .formMatch {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 90%;
+    margin: 0 auto 100px;
+    padding: 1px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+
+  .visitEq{
+    background: #1d420a;
+    color: white;
+  }
+
+  .localEq{
+    background: rgb(93, 27, 27);
+    color: white;
+  }
+
+  .equipo1{
+    color: rgb(93, 27, 27);
+  }
+
+  .equipo2{
+    color: #1d420a;
+  }
+
+  .row{
+    max-height: 400px;
+    overflow-y: scroll;
+  }
+  .column{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1px;
+    background-color:#aaa;
+    float: left;
+    cursor: pointer;
+  }
+
+  .column:hover{
+    padding: 1%;
+    background-color:#bbb;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+
+  .partido-form input{
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .partido-form button{
+    background-color: #9bb58d;
+  }
+
+  .golesEq{
+    width: 45px ;
+  }
